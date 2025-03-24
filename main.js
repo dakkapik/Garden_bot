@@ -4,7 +4,7 @@ const path = require('path');
 const bodyParser = require('body-parser');
 
 const app = express();
-const PORT = 3000;
+const PORT = 5000;
 const FILE_PATH = path.join(__dirname, 'suggestions.txt');
 
 // Middleware
@@ -34,5 +34,5 @@ app.post('/submit-suggestion', (req, res) => {
 });
 
 app.listen(PORT, () => {
-    console.log(`Server is running on http://localhost:${PORT}`);
+    console.log(`Server is running on port:${PORT}`);
 });
