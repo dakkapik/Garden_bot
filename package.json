@@ -1,0 +1,23 @@
+{
+  "name": "garden_bot",
+  "version": "1.0.0",
+  "description": "survey device to gather and act upon garden data",
+  "main": "main.js",
+  "scripts": {
+    "start":"node main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dakkapik/Garden_bot.git"
+  },
+  "author": "DakkaPik",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dakkapik/Garden_bot/issues"
+  },
+  "homepage": "https://github.com/dakkapik/Garden_bot#readme",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
